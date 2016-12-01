@@ -40,6 +40,78 @@ namespace Wallet {
     /// </summary>
     public partial class MainWindow : System.Windows.Window, System.Windows.Markup.IComponentConnector {
         
+        
+        #line 15 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.TextBlock ShowBlock;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 28 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button GetFromBuisnes;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 29 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button SetToBuisnes;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 30 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button CountBuisnes;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 47 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button GetFromCredit;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 48 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button SetToCredit;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 49 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button GetCredit;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 50 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button PayOfCredit;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 51 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button CountCredit;
+        
+        #line default
+        #line hidden
+        
         private bool _contentLoaded;
         
         /// <summary>
@@ -68,6 +140,84 @@ namespace Wallet {
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Maintainability", "CA1502:AvoidExcessiveComplexity")]
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1800:DoNotCastUnnecessarily")]
         void System.Windows.Markup.IComponentConnector.Connect(int connectionId, object target) {
+            switch (connectionId)
+            {
+            case 1:
+            this.ShowBlock = ((System.Windows.Controls.TextBlock)(target));
+            return;
+            case 2:
+            this.GetFromBuisnes = ((System.Windows.Controls.Button)(target));
+            
+            #line 28 "..\..\MainWindow.xaml"
+            this.GetFromBuisnes.Click += new System.Windows.RoutedEventHandler(this.GetFromBuisnes_Click);
+            
+            #line default
+            #line hidden
+            return;
+            case 3:
+            this.SetToBuisnes = ((System.Windows.Controls.Button)(target));
+            
+            #line 29 "..\..\MainWindow.xaml"
+            this.SetToBuisnes.Click += new System.Windows.RoutedEventHandler(this.SetToBuisnes_Click);
+            
+            #line default
+            #line hidden
+            return;
+            case 4:
+            this.CountBuisnes = ((System.Windows.Controls.Button)(target));
+            
+            #line 30 "..\..\MainWindow.xaml"
+            this.CountBuisnes.Click += new System.Windows.RoutedEventHandler(this.CountBuisnes_Click);
+            
+            #line default
+            #line hidden
+            return;
+            case 5:
+            this.GetFromCredit = ((System.Windows.Controls.Button)(target));
+            
+            #line 47 "..\..\MainWindow.xaml"
+            this.GetFromCredit.Click += new System.Windows.RoutedEventHandler(this.GetFromCredit_Click);
+            
+            #line default
+            #line hidden
+            return;
+            case 6:
+            this.SetToCredit = ((System.Windows.Controls.Button)(target));
+            
+            #line 48 "..\..\MainWindow.xaml"
+            this.SetToCredit.Click += new System.Windows.RoutedEventHandler(this.SetToCredit_Click);
+            
+            #line default
+            #line hidden
+            return;
+            case 7:
+            this.GetCredit = ((System.Windows.Controls.Button)(target));
+            
+            #line 49 "..\..\MainWindow.xaml"
+            this.GetCredit.Click += new System.Windows.RoutedEventHandler(this.GetCredit_Click);
+            
+            #line default
+            #line hidden
+            return;
+            case 8:
+            this.PayOfCredit = ((System.Windows.Controls.Button)(target));
+            
+            #line 50 "..\..\MainWindow.xaml"
+            this.PayOfCredit.Click += new System.Windows.RoutedEventHandler(this.PayOfCredit_Click);
+            
+            #line default
+            #line hidden
+            return;
+            case 9:
+            this.CountCredit = ((System.Windows.Controls.Button)(target));
+            
+            #line 51 "..\..\MainWindow.xaml"
+            this.CountCredit.Click += new System.Windows.RoutedEventHandler(this.CountCredit_Click);
+            
+            #line default
+            #line hidden
+            return;
+            }
             this._contentLoaded = true;
         }
     }

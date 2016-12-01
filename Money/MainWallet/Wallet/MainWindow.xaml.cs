@@ -41,19 +41,47 @@ namespace Wallet
     {
         public MainWindow()
         {
-			int a = 1;
-			int c;
-			double d = 0;
-			int c1;
-			int o;
-            InitializeComponent();
-			
-			int a;
-			int b;
-			int d;
-			double d=6;
-			double c;
-			double e;
+            InitializeComponent();			
+        }
+
+        private void GetFromBuisnes_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void SetToBuisnes_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void CountBuisnes_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void GetFromCredit_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void SetToCredit_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void GetCredit_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void PayOfCredit_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void CountCredit_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
