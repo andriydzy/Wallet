@@ -15,20 +15,20 @@ using System.Windows.Shapes;
 
 namespace Wallet
 {
-    interface IMoney
+   public interface IMoney
     {
         double MoneyCount { get; set; }
         bool SetMoney(double count);
         bool GetMoney(double count);
         double CountMoney();
     }
-    interface ICreditCard
+   public interface ICreditCard
     {
         IMoney money { get; set; }
         bool GetCredit(double count);
         bool PayOffCredit(double count);
     }
-    interface IBuisnesCard
+   public interface IBuisnesCard
     {
         IMoney money { get; set; }
         ICreditCard creditCard {get;set;}
@@ -41,19 +41,8 @@ namespace Wallet
     {
         public MainWindow()
         {
-			int a = 1;
-			int c;
-			double d = 0;
-			int c1;
-			int o;
-            InitializeComponent();
+			  InitializeComponent();
 			
-			int a;
-			int b;
-			int d;
-			double d=6;
-			double c;
-			double e;
         }
     }
 }
